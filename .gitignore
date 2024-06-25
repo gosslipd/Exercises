@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+/.vs/Exercises
+/Matrix string/x64/Debug
+/Ordered list generator/x64/Debug
+/x64/Debug
