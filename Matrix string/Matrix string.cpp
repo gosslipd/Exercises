@@ -1,3 +1,24 @@
+/*
+Problem text: Write a O(n) function with the following signature that, given a matrix of integers, 
+builds a string with the entries of that matrix appended in anticlockwise order. 
+For instance, the 3x4 matrix below:
+
+ 2, 3, 4, 8
+ 5, 7, 9, 12
+ 1, 0, 6, 10
+
+ would make the string “2, 5, 1, 0, 6, 10, 12, 8, 4, 3, 7, 9”
+ 
+ void StringifyMatrix(int* matrix, int rows, int columns, char* outBuffer)
+ {
+	 // Your code goes here
+ } 
+
+outBuffer is guaranteed to be valid and large enough to hold all of the data. 
+
+*/
+
+
 #include <iostream>
 #include <sstream>
 #include <string>
