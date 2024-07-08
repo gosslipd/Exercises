@@ -71,10 +71,9 @@ void StringifyMatrix(const int* matrix, const int rows, const int columns, char*
 		while (r > rmin)
 			sStr << *(matrix + (--r * columns) + (c)) << ",";
 
-			// Traverse 'left' back across a row
-			while (c > cmin)
-				sStr << *(matrix + (r * columns) + (--c)) << ",";
-
+		// Traverse 'left' back across a row
+		while (c > cmin)
+			sStr << *(matrix + (r * columns) + (--c)) << ",";
 	}
 	std::string outStr = sStr.str();
 
